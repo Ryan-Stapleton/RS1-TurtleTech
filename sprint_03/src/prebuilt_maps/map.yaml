@@ -1,0 +1,7 @@
+free_thresh: 0.90
+negate: 0
+origin: [-9.100000, -5.300000, 0.0]
+resolution: 0.050000
+mode: trinary
+occupied_thresh: 0.95
+image: /home/student/ros2_ws/src/sprint_03/src/prebuilt_maps/map.pgm
