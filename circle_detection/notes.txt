@@ -1,0 +1,16 @@
+#--------------------------------------------------
+# run these to visualise results in rviz
+#--------------------------------------------------
+ros2 launch slam_toolbox online_async_launch.py use_sim_time:=True
+rviz2 -d /home/christian/robotics_studio/sprint4.rviz
+
+#--------------------------------------------------
+# run executable
+#--------------------------------------------------
+ros2 run circle_detection circle_detector
+
+#--------------------------------------------------
+# move around
+#--------------------------------------------------
+export TURTLEBOT3_MODEL=waffle_pi
+ros2 run turtlebot3_teleop teleop_keyboard
